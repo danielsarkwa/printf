@@ -1,10 +1,11 @@
 #include "holberton.h"
 #include "stdio.h"
 
-/*
+/**
  * _printf - Print output according to a format
- *   write output to stdout
  * @char: string argument
+ * Description: write output to stdout
+ *
  * Return: number of char
  */
 int _printf(const char)
@@ -18,3 +19,4 @@ int _printf(const char)
 	printf("%d", totalCount);
 	return (totalCount);
 }
+
